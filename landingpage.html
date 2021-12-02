@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box ;
+            }
+            div#container{
+                /* background-color:darkcyan; */
+                width: 1250px;
+                margin:0px auto;
+            }
+            header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            div#logo{
+                /* background-color:aqua; */
+                width: 400px;
+                height:140px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            div#navs ul{
+                /* background-color: aquamarine; */
+                width: 400px;
+                height:140px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                
+            }
+            ul{
+                list-style-type: none;
+            }
+            
+            #section1{
+                /* background-color: blanchedalmond; */
+                width: inherit;
+                height: 650px;
+            }
+            #consult{
+                height: 33px;
+                width: 106px;
+                border-radius: 20px;
+                border-style: solid;
+                background-color:rgb(26, 109, 235);
+                border-color: rgb(26, 109, 235);
+                color:white;
+                text-decoration: none;
+                text-align: center;
+            }
+                
+
+            #div1{
+                /* background-color:blueviolet; */
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                /* justify-content: space-between;
+                align-items:center; */
+            }
+
+            #div1sect1{
+                padding-right: 40px;
+                /* background-color: brown; */
+                display: flex;
+                flex-direction: column;
+                row-gap: 33px;
+                }
+            
+            #div1sect1 h1{
+                font-family:sans-serif;
+                font-size: 50px;
+            }
+
+            #div2{
+                width: inherit;
+                height: 200px;
+                padding: 66px 42px;
+                text-align: center;
+                margin: 20px 0 ;
+
+            }
+
+            .box-container{
+                /* background-color: chartreuse; */
+                width: inherit;
+                height: 380px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+               
+            }
+
+            .box{
+                /* background-color: chocolate; */
+                width: 300px;
+                height: 270px;
+                box-shadow: 10px 10px 15px rgba(0,0,0,0.5)  ; /*horizontal, vertical, blur, spread, color, rgba(0,0,0,a)*/
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                border-radius: 10px;
+            }
+
+            .classdiv5{
+                /* background-color: coral; */
+                width: inherit;
+                height: 400px;
+                display: flex;
+                flex-direction: row;
+                /* justify-content: space-between; */
+                align-items: center;
+            }
+
+            .section{
+                margin-top: 10px ;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                column-gap: 10px;
+                font-size: 20px;
+                margin-left: 30px;
+                /* align-items: flex-start; */
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="container">
+          <header>
+            <div id="logo">
+                <img src = "icons8-circled-t-50.png"/>
+                <p>Trafalgar</p>
+            </div>
+            <div id="navs">
+                <ul>
+                    <li>Home</li>
+                    <li>Find a Doctor</li>
+                    <li>Apps</li>
+                    <li>Testimonials</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+          </header>
+          
+          <div id = "div1">
+            <section id = "div1sect1">
+                <h1>Virtual Healthcare for you</h1>
+                <p>Trafalgar provides progressive and affordable healthcare, accessible on mobile and online for everyone</p>
+                <a href="#" id="consult">Consult today</a>
+            </section>
+            <section id = "div1sect2">
+                <img src="images/section-1.png" />
+            </section>
+          </div>
+
+          <div id = "div2">
+              <h2>Our Services</h2><br>
+              <hr style="width:50px; background-color: black; border-radius: 1px; margin:auto; border-style: solid; "><br>
+              <p>We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
+          </div>
+
+          <div id = "div3" class="box-container">
+              <div class="box">
+                  <img src="images/Frame-1.png">
+                  <h3>Search Doctor</h3>
+                  <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+              </div>
+              <div class="box">
+                <img src="images/Frame-1.png">
+                <h3>Search Doctor</h3>
+                <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            </div>
+            <div class="box">
+                <img src="images/Frame-1.png">
+                <h3>Search Doctor</h3>
+                <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            </div>
+          </div>
+
+          <div id = "div4" class="box-container">
+            <div class="box">
+                <img src="images/Frame-1.png">
+                <h3>Search Doctor</h3>
+                <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            </div>
+            <div class="box">
+                <img src="images/Frame-1.png">
+                <h3>Search Doctor</h3>
+                <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            </div>
+            <div class="box">
+                <img src="images/Frame-1.png">
+                <h3>Search Doctor</h3>
+                <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            </div>
+          </div>
+
+          <div id = "div5" class = "classdiv5">
+              <section>
+                  <img src="images/section-1.png" style="height: 380px;">
+              </section>
+              <section class = "section">
+                  <h1>Leading healthcare providers</h1><br>
+                  <hr style="width:50px; background-color: black; border-radius: 1px; border-style: solid;text-align:left;margin-left:0 "><br>
+                  <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver</p>
+              </section>
+          </div>
+
+          <div id = "div6" class = "classdiv5">
+            <section class = "section">
+                <h1>Download our mobile apps</h1><br>
+                <hr style="width:50px; background-color: black; border-radius: 1px; border-style: solid;text-align:left;margin-left:0 "><br>
+                <p>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>    
+            </section>
+            <section >
+                <img src="images/section-2.png" style="height: 380px;">
+            </section>
+           </div>
+
+        </div>
+    </body>
+</html>
